@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome</title>
+</head>
+<body>
+<video src="videos/385027468.mp4" controls autoplay width="500px" height="600px"></video>
+
+<!-- <button>Display </button> -->
+<button onclick="display('raju')">Display name</button>
+<button onclick="displayfullname('rajesh','pakala')">Display name</button>
+<input type="text" id="firstname" placeholder="enterusername"></input>
+<button onclick="displayinputname()">display</button>
+
+<button onclick ="add(2,3)">Add</button>
+<script type="text/javascript">
+
+
+var name="rajesh";
+var num1=18;
+var num2=19;
+var num3=21;
+//alert(num1+num2-num3);
+var fname="rajesh";
+var lname="pakala";
+//alert(fname+lname)
+
+
+function display(name) {
+   alert("my name is "+name);
+
+
+}
+
+function displayfullname(firstname,lastname)
+{
+	alert("my first name is "+firstname+" "+lastname);
+}
+
+function displayinputname()
+{
+	var x=document.getElementById('firstname').value;
+	alert("my name is "+ x);
+}
+function Add(num1,num2)
+{
+var res=num1+num2;
+alert("sum is " + (num1+num2));
+}
+
+</script>
+</body>
+</html>

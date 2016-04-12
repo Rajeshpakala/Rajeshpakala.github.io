@@ -1,0 +1,33 @@
+#rajuimg{
+   	width: 300px;height: 300px;
+   }
+
+
+ #header{
+   	background-color: skyblue;width:100%;height: 60px;
+  
+ }
+
+ #footer{
+	background-color: skyblue;
+	width:100%;height: 60px;
+ 	position:absolute;
+bottom: 10px;
+
+ }
+
+
+
+ #loginform
+ {
+ 	float: right;
+ 	margin-top:25px;
+ 	font-size: 20px;
+
+ }
+
+ #Registerform{
+ position: absolute;
+ right: 10px;
+ margin-top: 50px;
+ }

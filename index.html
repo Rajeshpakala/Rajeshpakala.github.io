@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome</title>
+	<title>Chinna</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 
-<a href="lists.html">lists</a>
+
+<div id="header" ><font size="50px"> welcome</font>
+
+<div id="loginform" style="border:2px solid">
+	<form action="server.php" method="post">
+		Name:<input type="text" name="username" placeholder="username">
+		Password:<input type="passsword" name="password" placeholder="password">
+		<button type="submit">login</button>
+ </form>
+
+</div>
+
+
+</div>
+<div id="Registerform">
+	<form action="server.php" method="POST">
+ 
+
+Name:<input type="text" name="username" placeholder="username"><br>
+Password:<input type="password" name="password" placeholder="password"><br>
+Retype Password:<input type="password" name="retypepassword" placeholder="retypepassword"><br>
+Mobile:<input type="text" name="mobile" placeholder="mobile"><br>
+Gender:<input type="radio" name="gender" value="male"> male</input>
+
+<input type="radio" name="gender" value="female">female</input><br>
+<button type="submit">Register</button>
+</form>
+</div>
+<h1>Image</h1>
+<img  id="rajuimg" src="image/raju.jpg"  alt="this is a image" >
+<div id="footer">
+	<a href="lists.html">lists</a>
 <a href="table.html">Table</a>
 <a href="forms.html">Forms</a>
 <a href="multimedia.html">multimedia</a>
 <a href="inlinecss.html"  target="_blank">inline css</a>
 <a href="stylecss.html">stylecss</a>
 <a href="externalcss.html">externalcss</a>
-
-
-<center><h1>About World </h1></center>
-<p><b>World' can also be used attributively, to mean 'global',<br> 'relating to the whole world', forming usages such as world community or world canonical texts.[7]</b></p>
-
-<P><i>By extension, a 'world' may refer to any planet or heavenly body, especially when it is thought of as inhabited, especially in the context of science fiction or futurology.</i></P>
-
-<p>'World', in its original sense, when qualified, can also refer to a particular domain of human experience.</p>
-
-<p>The world of work describes paid work and the pursuit of a career, in all its social aspects, to distinguish it from home life and academic study.</p>
-<p>The fashion world describes the environment of the designers, fashion houses and consumers that make up the fashion industry.</p>
-historically, the New World vs. the Old World, referring to the parts of the world colonized in the wake of the age of discovery. Now mostly used in zoology and botany, as in New World monkey.
-
-
-
+</div>
 </body>
 </html>
